@@ -10,6 +10,9 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
+# LSCOLOR
+export CLICOLOR=1
+
 # loop trough all our *.zsh files and source them
 typeset -U alias_files
 alias_files=($ZSH/**/*.alias)
