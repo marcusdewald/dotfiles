@@ -1,9 +1,11 @@
+# shortcut to .dotfiles
+export ZSH=$HOME/.dotfiles
+
+# initialize fonts and  source 'powerlevel9k' theme
 POWERLEVEL9K_MODE='nerdfont-complete'
 source  ~/.dotfiles/zsh/themes/powerlevel9k/powerlevel9k.zsh-theme
 
+# configure 'powerlevel9k' theme
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-
-#####
-
