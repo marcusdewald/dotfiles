@@ -10,10 +10,16 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
+# loop trough all our *.zsh files and source them
 typeset -U alias_files
 alias_files=($ZSH/**/*.alias)
 
-for file in ${(M)alias_files}
-do
+for file in ${(M)alias_files}; do
   source $file
+done
+
+# load custom functions
+
+for function in $ZSH/functions/*; do
+  source $function
 done
