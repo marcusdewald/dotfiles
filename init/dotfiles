@@ -1,0 +1,9 @@
+#!/bin/bash
+echo ''
+
+ln -sv .dotfiles/zsh/zshrc ~/.zshrc
+ln -sv .dotfiles/vim/vim ~/.vim
+ln -sv .dotfiles/vim/vimrc ~/.vimrc
+
+echo ''
+echo '    Symlinks created succesfully! Happy hacking!'
