@@ -1,6 +1,4 @@
 #!/bin/bash
-echo ''
-echo ''
 
 if [[ ! -f ~/.dotfiles/init/.init_done ]]; then
   echo "Seems to be the first run, let's zsh this up..."
