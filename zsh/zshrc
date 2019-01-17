@@ -7,7 +7,7 @@ source  ~/.dotfiles/zsh/themes/powerlevel9k/powerlevel9k.zsh-theme
 
 # configure 'powerlevel9k' theme
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host user dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs user)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # LSCOLOR
