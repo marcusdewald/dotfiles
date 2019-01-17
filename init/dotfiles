@@ -1,9 +1,17 @@
 #!/bin/bash
 echo ''
-
-ln -sv .dotfiles/zsh/zshrc ~/.zshrc
-ln -sv .dotfiles/vim/ ~/.vim
-ln -sv .dotfiles/vim/vimrc ~/.vimrc
-
 echo ''
-echo '    Symlinks created succesfully! Happy hacking!'
+
+if [[ ! -f ~/.dotfiles/init/.init_done ]]; then
+  echo "Seems to be the first run, let's zsh this up..."
+  sudo apt install -y zsh
+  chsh -s /bin/zsh
+  touch ~/.dotfiles/init/.init_done
+  echo "Creating symlinks..."
+  ln -sv .dotfiles/zsh/zshrc ~/.zshrc
+  ln -sv .dotfiles/vim/ ~/.vim
+  ln -sv .dotfiles/vim/vimrc ~/.vimrc
+  echo 'Symlinks created succesfully! Happy hacking!'
+else
+  echo "Already initialized."
+fi
