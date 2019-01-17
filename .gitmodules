@@ -3,4 +3,4 @@
 	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "zsh/themes/powerlevel9k"]
 	path = zsh/themes/powerlevel9k
-	url = git@github.com:bhilburn/powerlevel9k.git
+	url = https://github.com/bhilburn/powerlevel9k.git
