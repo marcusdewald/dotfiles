@@ -1,0 +1,7 @@
+# 
+#
+# $USER = reflecting your local username
+#
+#
+#
+# alias myserver='ssh $USER@hostname.or.ip -p 12345'
