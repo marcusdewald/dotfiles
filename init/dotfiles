@@ -5,11 +5,14 @@ if [[ ! -f ~/.dotfiles/init/.init_done ]]; then
   sudo apt install -y zsh
   chsh -s /bin/zsh
   touch ~/.dotfiles/init/.init_done
+  echo "Loading git submodules..."
+  git submodule init
+  git submodule update
   echo "Creating symlinks..."
   ln -sv .dotfiles/zsh/zshrc ~/.zshrc
   ln -sv .dotfiles/vim/ ~/.vim
   ln -sv .dotfiles/vim/vimrc ~/.vimrc
-  echo 'Symlinks created succesfully! Happy hacking!'
+  echo 'Succesfully initialized. Log out and back in. Happy hacking!'
 else
   echo "Already initialized."
 fi
