@@ -1,0 +1,3 @@
+# this is an example localonly
+
+# alias loadkeys='ssh-add -K ~/.ssh/key1 && ssh-add -K ~/.ssh/key2 && ssh-add -K ~/.somewhere/else/key3'
