@@ -3,8 +3,8 @@ export ZSH=$HOME/.dotfiles
 
 # histfile and size
 HISTFILE=~/.zsh_history
-HISTSIZE=100
-SAVEHIST=3000
+HISTSIZE=1000
+SAVEHIST=1000
 
 # initialize fonts and  source 'powerlevel9k' theme
 POWERLEVEL9K_MODE='nerdfont-complete'
