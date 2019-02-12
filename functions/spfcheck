@@ -1,0 +1,5 @@
+# grep txt spf txt record from a domain
+# example usage: spfcheck anydomain.com
+function spfcheck() {
+  dig $1 txt | grep v=spf1
+}
