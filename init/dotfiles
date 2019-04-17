@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [[ ! -f ~/.dotfiles/init/.init_done ]]; then
   echo "Seems to be the first run, let's zsh this up..."
   sudo apt install -y zsh
