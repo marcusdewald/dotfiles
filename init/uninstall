@@ -1,0 +1,5 @@
+#!/bin/bash
+if [[ ! -f ~/.dotfiles/init/.init_done ]]; then
+  chsh -s /bin/bash
+  rm ~/.dotfiles/init/.init_done
+fi
