@@ -12,4 +12,5 @@ The first intention was simply to have my own dotfiles where I could do whatever
 
 ## _Notes_
 
+Tested and developed on macOS with iTerm2 and ZSH as Bash replacement.
 At the moment it barely fullfills everything I envision but it's already a solid base to build upon.
