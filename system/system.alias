@@ -1,5 +1,9 @@
-# forcing myself to use vim :]
+# forcing myself to use vim =)
 alias nano='vim'
 
 alias ll='ls -alh'
-alias wtfip='curl ifconfig.co'
+
+# lazy ass stuff
+alias !!=''
+alias wtfip4='curl -4 ifconfig.co'
+alias wtfip6='curl -6 ifconfig.co'
