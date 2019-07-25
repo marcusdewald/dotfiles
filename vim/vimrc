@@ -10,7 +10,6 @@ call vundle#end() " insert plugins above this line
 filetype plugin indent on
 
 syntax enable
-colorscheme badwolf
 
 set tabstop=4
 set softtabstop=4
