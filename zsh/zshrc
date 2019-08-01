@@ -11,8 +11,8 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 source  ~/.dotfiles/zsh/themes/powerlevel9k/powerlevel9k.zsh-theme
 
 # configure 'powerlevel9k' theme
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host user dir vcs newline)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs virtualenv)
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # LSCOLOR
